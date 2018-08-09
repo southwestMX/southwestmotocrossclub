@@ -4,7 +4,11 @@ import "./App.css";
 import Header from "./components/header";
 
 import { Switch, Route } from "react-router-dom"; // import the react-router-dom components
-import { Home, RiderInfo, Committee, Sponsors } from "./components/pages"; // import our pages
+// import our pages
+import { Home } from "./pages/home";
+import { RiderInfo } from "./pages/riderInfo/riderInfo";
+import { Committee } from "./pages/committee";
+import { Sponsors } from "./pages/sponsors";
 
 const Main = () => (
   <main>

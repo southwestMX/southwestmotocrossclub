@@ -6,9 +6,10 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
+import "bootstrap/dist/js/bootstrap";
 
 ReactDOM.render(
+  //Need process.env.PUBLIC_URL to ensure correct path local vs virtual directory in GitHub
   <BrowserRouter basename={process.env.PUBLIC_URL}>
     <App />
   </BrowserRouter>,
