@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-//import { Switch, Route, Link } from "react-router-dom";
 import NavLink from "./navLink";
 
 class Header extends Component {
@@ -28,7 +27,11 @@ class Header extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-          <Link className="navbar-brand" to="/Home">
+          <Link
+            className="navbar-brand"
+            to="/"
+            onClick={() => this.handleClick(0)}
+          >
             South West Motocross Club
           </Link>
           <button
