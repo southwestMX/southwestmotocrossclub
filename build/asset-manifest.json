@@ -1,9 +1,11 @@
 {
-  "main.css": "static/css/main.2d1a3b25.css",
-  "main.css.map": "static/css/main.2d1a3b25.css.map",
-  "main.js": "static/js/main.062a8663.js",
-  "main.js.map": "static/js/main.062a8663.js.map",
+  "main.css": "static/css/main.b76585b2.css",
+  "main.css.map": "static/css/main.b76585b2.css.map",
+  "main.js": "static/js/main.8e5edbef.js",
+  "main.js.map": "static/js/main.8e5edbef.js.map",
+  "static/media/bornAndBreadLogo.jpg": "static/media/bornAndBreadLogo.3f2a3b38.jpg",
   "static/media/membershipform-2018.doc": "static/media/membershipform-2018.d27ae09c.doc",
+  "static/media/moto33Logo.jpg": "static/media/moto33Logo.89f0810c.jpg",
   "static/media/mylapsLogo.svg": "static/media/mylapsLogo.4211dcc0.svg",
   "static/media/swmxLogo.jpg": "static/media/swmxLogo.cfeca4b5.jpg"
 }

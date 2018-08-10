@@ -21,16 +21,6 @@ export const Home = () => (
       </a>
     </p>
 
-    {/* <p>2018 Fixtures can be seen here</p>
-    <p>
-      <a
-        className="btn btn-info"
-        href="http://southwestmotocrossclub.net/rider-info#ChampionshipDates"
-      >
-        View Fixtures
-      </a>
-    </p> */}
-
     <p>Please take a moment to view this year's sponsors</p>
     <p>
       <a className="btn btn-info" href="/Sponsors">

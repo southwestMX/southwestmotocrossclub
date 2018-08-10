@@ -2,7 +2,7 @@ import React from "react";
 
 export const Committee = () => (
   <div className="container">
-    <h1>2018 Committee</h1>
+    <h1>Committee 2018</h1>
 
     <div>
       <table className="table table-sm table-striped table-auto-width table-centre-align">
@@ -63,7 +63,7 @@ export const Committee = () => (
       </tbody>
     </table>
 
-    <h1>2018 Race Day Committee</h1>
+    <h1>Race Day Committee 2018</h1>
 
     <table class="table table-sm table-striped">
       <thead>

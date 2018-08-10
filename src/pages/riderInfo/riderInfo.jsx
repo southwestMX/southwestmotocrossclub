@@ -11,7 +11,7 @@ import MembershipForm from "../../membershipform-2018.doc";
 
 export const RiderInfo = () => (
   <div className="container">
-    <h1>2018 Rider Info</h1>
+    <h1>Rider Info 2018</h1>
 
     <h2>Club Membership</h2>
 
@@ -59,7 +59,7 @@ export const RiderInfo = () => (
       </Link>
     </p>
 
-    <h2 className="margin-top-60">2018 Fixtures</h2>
+    <h2 className="margin-top-60">Fixtures 2018</h2>
 
     <WinterWarmups />
 
