@@ -7,31 +7,19 @@ class Header extends Component {
     super(props);
     this.state = {
       links: [
-        { path: "/", text: "Home", isActive: true },
-        { path: "/RiderInfo", text: "Rider Info", isActive: false },
-        { path: "/Committee", text: "Committee", isActive: false },
-        { path: "/Sponsors", text: "Sponsors", isActive: false }
+        { to: "/", text: "Home" },
+        { to: "/RiderInfo", text: "Rider Info" },
+        { to: "/Committee", text: "Committee" },
+        { to: "/Sponsors", text: "Sponsors" }
       ]
     };
-  }
-
-  handleClick(i) {
-    const links = this.state.links.slice();
-    for (const j in links) {
-      links[j].isActive = i === parseInt(j, 10);
-    }
-    this.setState({ links: links });
   }
 
   render() {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-          <Link
-            className="navbar-brand"
-            to="/"
-            onClick={() => this.handleClick(0)}
-          >
+          <Link className="navbar-brand" to="/">
             South West Motocross Club
           </Link>
           <button
@@ -47,14 +35,8 @@ class Header extends Component {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              {this.state.links.map((link, i) => (
-                <NavLink
-                  path={link.path}
-                  text={link.text}
-                  isActive={link.isActive}
-                  key={link.path}
-                  onClick={() => this.handleClick(i)}
-                />
+              {this.state.links.map(link => (
+                <NavLink to={link.to} text={link.text} key={link.to} />
               ))}
             </ul>
           </div>

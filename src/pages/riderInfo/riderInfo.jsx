@@ -57,6 +57,7 @@ export const RiderInfo = () => (
         Download SWMX 2018 Membership Form
       </Link>
     </p>
+
     <h2 className="margin-top-60">2018 Fixtures</h2>
 
     <WinterWarmups />
