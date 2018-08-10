@@ -4,8 +4,9 @@ import { WinterWarmups } from "./winterWarmups";
 import { ChampionshipDates } from "./championshipDates";
 import { GroupsAndEntryFees } from "./groupsAndEntryFees";
 
-import McfLogo from "../../mcfLogo.png";
-import MylapsLogo from "../../mylapsLogo.svg";
+import McfLogo from "../../images/mcfLogo.png";
+import MylapsLogo from "../../images/mylapsLogo.svg";
+
 import MembershipForm from "../../membershipform-2018.doc";
 
 export const RiderInfo = () => (
@@ -22,7 +23,7 @@ export const RiderInfo = () => (
     </p>
     <p>
       The South West Motocross Club is part of the{" "}
-      <a href="http://www.mcfederation.com/">
+      <a href="//www.mcfederation.com/">
         <img
           className="alignnone size-full wp-image-239"
           src={McfLogo}
@@ -39,7 +40,7 @@ export const RiderInfo = () => (
     <p>
       <Link
         className="btn btn-info"
-        to="http://www.mcfederation.com/licences"
+        to="//www.mcfederation.com/licences"
         rel="noopener noreferrer"
         target="_blank"
       >
