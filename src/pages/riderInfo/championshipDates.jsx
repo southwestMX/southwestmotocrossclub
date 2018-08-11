@@ -3,10 +3,10 @@ import SpeedHiveLink from "../../components/speedHiveLink";
 
 export const ChampionshipDates = () => (
   <div>
-    <h2 className="margin-top-25">Championship Dates</h2>
+    <h3>Championship Dates</h3>
 
     <table className="table table-sm table-striped table-auto-width table-centre-align">
-      <thead>
+      <thead className="thead-dark">
         <tr>
           <th>Round</th>
           <th>Event Date</th>

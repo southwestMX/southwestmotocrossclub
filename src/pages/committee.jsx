@@ -1,12 +1,12 @@
 import React from "react";
 
 export const Committee = () => (
-  <div className="container">
-    <h1>Committee 2018</h1>
+  <div>
+    <h1 className="my-md-4">Committee 2018</h1>
 
     <div>
-      <table className="table table-sm table-striped table-auto-width table-centre-align">
-        <thead>
+      <table className="table table-sm table-striped table-bordered n">
+        <thead className="thead-dark">
           <tr>
             <th>President</th>
             <th>Chairman</th>
@@ -34,10 +34,10 @@ export const Committee = () => (
       </table>
     </div>
 
-    <table className="table table-sm table-striped">
-      <thead>
+    <table className="table table-sm table-striped table-bordered">
+      <thead className="thead-dark">
         <tr>
-          <th colspan="4">General Committee</th>
+          <th colSpan="4">General Committee Members</th>
         </tr>
       </thead>
       <tbody>
@@ -63,10 +63,10 @@ export const Committee = () => (
       </tbody>
     </table>
 
-    <h1>Race Day Committee 2018</h1>
+    <h1 className="my-md-4">Race Day Committee 2018</h1>
 
-    <table class="table table-sm table-striped">
-      <thead>
+    <table className="table table-sm table-striped table-bordered">
+      <thead className="thead-dark">
         <tr>
           <th>Race Day Treasurer</th>
           <th>Race Day Secretary</th>

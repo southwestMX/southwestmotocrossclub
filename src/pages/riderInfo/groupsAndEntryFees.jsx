@@ -5,7 +5,7 @@ export const GroupsAndEntryFees = () => (
     <h3 className="margin-top-25">Groups / Entry Fees</h3>
     <p />
     <table className="table table-sm table-striped table-auto-width table-centre-align">
-      <thead>
+      <thead className="thead-dark">
         <tr>
           <th>Group</th>
           <th>Entry Fee</th>

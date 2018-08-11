@@ -3,13 +3,7 @@ import Logo from "../images/swmxLogo.jpg";
 
 export const Home = () => (
   <div>
-    <img
-      className="img-fluid"
-      src={Logo}
-      alt="logo"
-      //   width="329"
-      //   height="345"
-    />
+    <img className="img-fluid" src={Logo} alt="logo" />
 
     <p>
       Memberships are now available, for details about this and other important

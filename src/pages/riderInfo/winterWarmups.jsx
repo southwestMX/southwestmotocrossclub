@@ -3,9 +3,9 @@ import SpeedHiveLink from "../../components/speedHiveLink";
 
 export const WinterWarmups = () => (
   <div>
-    <h2 className="margin-top-25">Winter Warm Ups</h2>
+    <h3 className="margin-top-25">Winter Warm Ups</h3>
     <table className="table table-sm table-striped table-auto-width table-centre-align">
-      <thead>
+      <thead className="thead-dark">
         <tr>
           <th>Event Date</th>
           <th>Track</th>

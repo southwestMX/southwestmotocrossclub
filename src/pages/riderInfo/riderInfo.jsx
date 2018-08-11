@@ -10,8 +10,8 @@ import MylapsLogo from "../../images/mylapsLogo.svg";
 import MembershipForm from "../../membershipform-2018.doc";
 
 export const RiderInfo = () => (
-  <div className="container">
-    <h1>Rider Info 2018</h1>
+  <div>
+    <h1 className="my-md-4">Rider Info 2018</h1>
 
     <h2>Club Membership</h2>
 

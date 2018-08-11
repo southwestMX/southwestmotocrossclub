@@ -7,3 +7,16 @@ body {
 div.sponsor-row {
   margin-bottom: 40px;
 }
+
+div.sponsor {
+  height: 180px;
+}
+
+img.sponsor-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.table .thead-dark th {
+  background-color: #343a40 !important;
+}
