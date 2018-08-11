@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 import { Switch, Route } from "react-router-dom"; // import the react-router-dom components
 // import our pages
@@ -29,6 +30,7 @@ class App extends Component {
         <div className="container">
           <Main />
         </div>
+        <Footer />
       </div>
     );
   }
