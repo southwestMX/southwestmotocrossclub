@@ -61,7 +61,7 @@ export const Sponsors = () => (
       <SponsorBlock
         imageSrc="http://www.johndeaconracing.co.uk/content/images/thumbs/0000023.png"
         linkTo="//www.johndeaconracing.co.uk"
-        linkDisplayText="SW Lead"
+        linkDisplayText="JD Racing"
       />
 
       <SponsorBlock

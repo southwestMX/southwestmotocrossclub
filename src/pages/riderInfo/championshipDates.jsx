@@ -86,6 +86,6 @@ export const ChampionshipDates = () => (
       Club members must compete in at least six rounds in order to qualify for
       awards.
     </h5>
-    <h5>A riders worst 3 races will be dropped.</h5>
+    <h5>A riders worst 6 races will be dropped.</h5>
   </div>
 );
