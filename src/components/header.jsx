@@ -8,7 +8,7 @@ class Header extends Component {
     this.state = {
       links: [
         { to: "/", text: "Home" },
-        { to: "/RiderInfo", text: "Rider Info" },
+        { to: "/RiderInformation", text: "Rider Information" },
         { to: "/Committee", text: "Committee" },
         { to: "/Sponsors", text: "Sponsors" }
       ]

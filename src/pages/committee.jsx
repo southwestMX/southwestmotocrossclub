@@ -1,4 +1,5 @@
-import React from "react";
+import React, { Component } from "react";
+import DocumentTitle from "react-document-title";
 import ResponsiveTable from "../components/responsiveTable";
 
 const committeeHeaders = [
@@ -53,46 +54,57 @@ const racedayCommitteeDetails = [
   }
 ];
 
-export const Committee = () => (
-  <div>
-    <h1 className="my-md-4">Committee 2018</h1>
-    <ResponsiveTable headers={committeeHeaders} details={committeeDetails} />
+class Committee extends Component {
+  render() {
+    return (
+      <DocumentTitle title="Committee 2018 | SWMX">
+        <div>
+          <h1 className="my-md-4">Committee 2018</h1>
+          <ResponsiveTable
+            headers={committeeHeaders}
+            details={committeeDetails}
+          />
 
-    <div className="table-responsive">
-      <table className="table table-md table-striped table-bordered">
-        <thead className="thead-dark">
-          <tr>
-            <th colSpan="4">General Committee Members</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Kirsty Crawthorne</td>
-            <td>Shaun Miller</td>
-            <td>Carmen Jenkins</td>
-            <td>Lorna Hopkins</td>
-          </tr>
+          <div className="table-responsive">
+            <table className="table table-md table-striped table-bordered">
+              <thead className="thead-dark">
+                <tr>
+                  <th colSpan="4">General Committee Members</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Kirsty Crawthorne</td>
+                  <td>Shaun Miller</td>
+                  <td>Carmen Jenkins</td>
+                  <td>Lorna Hopkins</td>
+                </tr>
 
-          <tr>
-            <td>Robert Sprake</td>
-            <td>Simon Ellett</td>
-            <td>Richard Birch</td>
-            <td>Angie Hill</td>
-          </tr>
-          <tr>
-            <td>Trevor Bennett</td>
-            <td>Tracey Watts</td>
-            <td>Richard Hopkins</td>
-            <td />
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    <h1 className="my-md-4">Race Day Committee 2018</h1>
+                <tr>
+                  <td>Robert Sprake</td>
+                  <td>Simon Ellett</td>
+                  <td>Richard Birch</td>
+                  <td>Angie Hill</td>
+                </tr>
+                <tr>
+                  <td>Trevor Bennett</td>
+                  <td>Tracey Watts</td>
+                  <td>Richard Hopkins</td>
+                  <td />
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <h1 className="my-md-4">Race Day Committee 2018</h1>
 
-    <ResponsiveTable
-      headers={racedayCommitteeHeaders}
-      details={racedayCommitteeDetails}
-    />
-  </div>
-);
+          <ResponsiveTable
+            headers={racedayCommitteeHeaders}
+            details={racedayCommitteeDetails}
+          />
+        </div>
+      </DocumentTitle>
+    );
+  }
+}
+
+export default Committee;
