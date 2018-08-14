@@ -1,40 +1,19 @@
 import React from "react";
+import ResponsiveTable from "../../components/responsiveTable";
+
+const headers = ["Group", "Entry Fee"];
+const details = [
+  { group: "Autos", entry: "£30" },
+  { group: "65 \u0026 85 SW / BW", entry: "£35" },
+  { group: "Rookies", entry: "£35" },
+  { group: "Adult A (MX1 \u0026 MX2)", entry: "£40" },
+  { group: "Adult B (Novice \u0026 Vets)", entry: "£40" }
+];
 
 export const GroupsAndEntryFees = () => (
   <div>
-    <h3 className="margin-top-25">Groups / Entry Fees</h3>
+    <h2 className="margin-top-60">Groups / Entry Fees</h2>
 
-    <div className="table-responsive">
-      <table className="table table-sm table-striped table-auto-width table-centre-align">
-        <thead className="thead-dark">
-          <tr>
-            <th>Group</th>
-            <th>Entry Fee</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Autos</td>
-            <td>£30</td>
-          </tr>
-          <tr>
-            <td>65 &amp; 85sw &amp; 85bw</td>
-            <td>£35</td>
-          </tr>
-          <tr>
-            <td>Rookies</td>
-            <td>£35</td>
-          </tr>
-          <tr>
-            <td>Adult A (MX1 &amp; MX2)</td>
-            <td>£40</td>
-          </tr>
-          <tr>
-            <td>Adult B (Novice &amp; Vets)</td>
-            <td>£40</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <ResponsiveTable headers={headers} details={details} />
   </div>
 );

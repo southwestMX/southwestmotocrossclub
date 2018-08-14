@@ -5,17 +5,17 @@ export const Home = () => (
   <div>
     <img className="img-fluid" src={Logo} alt="logo" />
 
-    <p>
+    <h5>
       Memberships are now available, for details about this and other important
       information such as fixtures and results
-    </p>
+    </h5>
     <p>
       <a className="btn btn-info" href="/RiderInfo">
         View Rider Info
       </a>
     </p>
 
-    <p>Please take a moment to view this year's sponsors</p>
+    <h5>Please take a moment to view this year's sponsors</h5>
     <p>
       <a className="btn btn-info" href="/Sponsors">
         View Sponsors

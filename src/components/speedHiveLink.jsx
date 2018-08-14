@@ -5,8 +5,8 @@ class SpeedHiveLink extends Component {
   render() {
     return (
       <Link
-        className="btn btn-info"
-        to={"https://speedhive.mylaps.com/Events/" + this.props.eventId}
+        className="btn btn-info speedhive-btn"
+        to={"//speedhive.mylaps.com/Events/" + this.props.eventId}
         rel="noopener noreferrer"
         target="_blank"
       >

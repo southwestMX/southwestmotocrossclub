@@ -1,29 +1,20 @@
 import React from "react";
-import SpeedHiveLink from "../../components/speedHiveLink";
+import ResponsiveTable from "../../components/responsiveTable";
+
+const headers = ["Round", "Date", "Track", ""];
+const details = [
+  {
+    round: "1",
+    date: "14th January",
+    track: "Little Silver Moto Parc",
+    speedHiveLink: { eventId: 1489377 }
+  }
+];
 
 export const WinterWarmups = () => (
   <div>
     <h3 className="margin-top-25">Winter Warm Ups</h3>
 
-    <div className="table-responsive">
-      <table className="table table-sm table-striped table-auto-width table-centre-align">
-        <thead className="thead-dark">
-          <tr>
-            <th>Date</th>
-            <th>Track</th>
-            <th>&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>14th January</td>
-            <td>Little Silver Moto Parc</td>
-            <td>
-              <SpeedHiveLink eventId={1489377} />
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <ResponsiveTable headers={headers} details={details} />
   </div>
 );

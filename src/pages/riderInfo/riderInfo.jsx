@@ -13,7 +13,7 @@ export const RiderInfo = () => (
   <div>
     <h1 className="my-md-4">Rider Info 2018</h1>
 
-    <h2>Club Membership</h2>
+    <h2 className="margin-top-60">Club Membership</h2>
 
     <p>
       Riders are required to hold an MCF racing license to attend our events
@@ -67,7 +67,7 @@ export const RiderInfo = () => (
 
     <GroupsAndEntryFees />
 
-    <h3 className="margin-top-25">Race Timing</h3>
+    <h2 className="margin-top-60">Race Timing</h2>
     <p>
       <Link to="//www.mylaps.com">
         <img
@@ -79,10 +79,10 @@ export const RiderInfo = () => (
         />
       </Link>{" "}
     </p>
-    <p>
+    <h5>
       Is used for all of our race timings, riders without their own transponder
       are able to hire them from us on a strictly ‘first come, first served’
       basis.
-    </p>
+    </h5>
   </div>
 );

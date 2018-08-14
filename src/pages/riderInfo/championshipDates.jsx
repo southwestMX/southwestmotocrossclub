@@ -1,87 +1,73 @@
 import React from "react";
-import SpeedHiveLink from "../../components/speedHiveLink";
+//import SpeedHiveLink from "../../components/speedHiveLink";
+import ResponsiveTable from "../../components/responsiveTable";
+
+const headers = ["Round", "Date", "Track", ""];
+const details = [
+  {
+    round: "1 & 2",
+    date: "28th / 29th April",
+    track: "Littlehempston",
+    speedHiveLinks: [
+      { eventId: 1489377, displayText: "Day 1 Results" },
+      { eventId: 1489377, displayText: "Day 2 Results" }
+    ]
+  },
+  {
+    round: "3",
+    date: "27th May",
+    track: "Matt Jones Memorial @ Landrake Moto Parc",
+    speedHiveLink: { eventId: 1534198 }
+  },
+  {
+    round: "4",
+    date: "17th June",
+    track: "Tincleton",
+    speedHiveLink: { eventId: 1546457 }
+  },
+  {
+    round: "5",
+    date: "15th July",
+    track: "Fraddon",
+    speedHiveLink: { eventId: 1561096 }
+  },
+  {
+    round: "MCF Team Event",
+    date: "18th / 19th August",
+    track: "Sherwood Park MX",
+    empty: ""
+  },
+  {
+    round: "6",
+    date: "26th August",
+    track: "Whiteway Barton",
+    empty: ""
+  },
+  {
+    round: "7 & 8",
+    date: "9th / 10th September",
+    track: "Little Silver Moto Parc",
+    empty: ""
+  },
+  {
+    round: "9",
+    date: "23rd September",
+    track: "Crediton",
+    empty: ""
+  },
+  {
+    round: "10",
+    date: "7th October",
+    track: "Yarley",
+    empty: ""
+  }
+];
 
 export const ChampionshipDates = () => (
   <div>
     <h3>Championship Dates</h3>
 
-    <div className="table-responsive">
-      <table className="table table-sm table-striped table-auto-width table-centre-align">
-        <thead className="thead-dark">
-          <tr>
-            <th>Round</th>
-            <th>Date</th>
-            <th>Track</th>
-            <th>&nbsp;</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1 &amp; 2</td>
-            <td>28th / 29th April</td>
-            <td>Littlehempston</td>
-            <td>
-              <SpeedHiveLink displayText="Day 1 Results" eventId={1517757} />
-              <SpeedHiveLink displayText="Day 2 Results" eventId={1517783} />
-            </td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>27th May</td>
-            <td>Matt Jones Memorial @ Landrake Moto Parc</td>
-            <td>
-              <SpeedHiveLink displayText="Day 2 Results" eventId={1534198} />
-            </td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>17th June</td>
-            <td>Tincleton</td>
-            <td>
-              <SpeedHiveLink displayText="Day 2 Results" eventId={1546457} />
-            </td>
-          </tr>
-          <tr>
-            <td>5</td>
-            <td>15th July</td>
-            <td>Fraddon</td>
-            <td>
-              <SpeedHiveLink displayText="Day 2 Results" eventId={1561096} />
-            </td>
-          </tr>
-          <tr>
-            <td>MCF Team Event</td>
-            <td>18th / 19th August</td>
-            <td>Sherwood Park MX</td>
-            <td />
-          </tr>
-          <tr>
-            <td>6</td>
-            <td>26th August</td>
-            <td>Whiteway Barton</td>
-            <td />
-          </tr>
-          <tr>
-            <td>7 &amp; 8</td>
-            <td>9th / 10th September</td>
-            <td>Little Silver Moto Parc</td>
-            <td />
-          </tr>
-          <tr>
-            <td>9</td>
-            <td>23rd September</td>
-            <td>Crediton</td>
-            <td />
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>7th October</td>
-            <td>Yarley</td>
-            <td />
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <ResponsiveTable headers={headers} details={details} />
 
     <h5>Tracks and dates are subject to change</h5>
     <h5>
