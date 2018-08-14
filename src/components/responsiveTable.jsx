@@ -19,7 +19,14 @@ class ResponsiveTable extends Component {
       return Object.keys(detail).map(function(keyName, keyIndex) {
         var data = detail[keyName];
         return (
-          <td key={keyIndex}>{buildTableDataCellContent(keyName, data)}</td>
+          <td
+            key={keyIndex}
+            className={
+              keyName.startsWith("speedHiveLink") ? "vertical-align" : ""
+            }
+          >
+            {buildTableDataCellContent(keyName, data)}
+          </td>
         );
       });
     }
@@ -44,7 +51,7 @@ class ResponsiveTable extends Component {
 
     return (
       <div className="table-responsive">
-        <table className="table table-sm table-striped table-auto-width table-centre-align table-bordered">
+        <table className="table table-md table-striped table-bordered">
           <thead className="thead-dark">
             <tr>{buildTableHeaders(this.props.headers)}</tr>
           </thead>

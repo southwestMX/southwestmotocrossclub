@@ -13,8 +13,6 @@ const details = [
 
 export const WinterWarmups = () => (
   <div>
-    <h3 className="margin-top-25">Winter Warm Ups</h3>
-
     <ResponsiveTable headers={headers} details={details} />
   </div>
 );

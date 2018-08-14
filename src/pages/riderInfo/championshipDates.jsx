@@ -1,5 +1,4 @@
 import React from "react";
-//import SpeedHiveLink from "../../components/speedHiveLink";
 import ResponsiveTable from "../../components/responsiveTable";
 
 const headers = ["Round", "Date", "Track", ""];
@@ -65,8 +64,6 @@ const details = [
 
 export const ChampionshipDates = () => (
   <div>
-    <h3>Championship Dates</h3>
-
     <ResponsiveTable headers={headers} details={details} />
 
     <h5>Tracks and dates are subject to change</h5>

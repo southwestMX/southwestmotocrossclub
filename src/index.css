@@ -50,3 +50,7 @@ footer {
 .margin-top-25 {
   margin-top: 25px;
 }
+
+td.vertical-align {
+  vertical-align: middle;
+}

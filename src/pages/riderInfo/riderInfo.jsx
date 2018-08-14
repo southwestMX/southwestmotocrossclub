@@ -14,24 +14,25 @@ export const RiderInfo = () => (
     <h1 className="my-md-4">Rider Info 2018</h1>
 
     <h2 className="margin-top-60">Club Membership</h2>
-
     <p>
-      Riders are required to hold an MCF racing license to attend our events
-      (full/day license). To encourage riders to take out a full MCF license, we
-      offer a discount to join our club when South West Motocross Club is named
-      on the license.
-    </p>
-    <p>
-      The South West Motocross Club is part of the{" "}
       <a href="//www.mcfederation.com/">
         <img
-          className="alignnone size-full wp-image-239"
+          className="alignnone size-full"
           src={McfLogo}
           alt=""
-          width="74"
-          height="27"
+          width="120"
+          height="50"
         />
       </a>
+    </p>
+    <p>
+      The South West Motocross Club is part of the MCF and riders are required
+      to hold an MCF racing license to attend our events (full/day license).
+    </p>
+
+    <p>
+      To encourage riders to take out a full MCF license, we offer a discount to
+      join our club when South West Motocross Club is named on the license.
     </p>
 
     <p>£15 – If South West Motocross Club is named on the license</p>
@@ -61,8 +62,10 @@ export const RiderInfo = () => (
 
     <h2 className="margin-top-60">Fixtures 2018</h2>
 
+    <h3 className="margin-top-25">Winter Warm Ups</h3>
     <WinterWarmups />
 
+    <h3 className="margin-top-25">Championship Dates</h3>
     <ChampionshipDates />
 
     <GroupsAndEntryFees />

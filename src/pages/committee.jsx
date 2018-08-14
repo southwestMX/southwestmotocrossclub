@@ -59,7 +59,7 @@ export const Committee = () => (
     <ResponsiveTable headers={committeeHeaders} details={committeeDetails} />
 
     <div className="table-responsive">
-      <table className="table table-sm table-striped table-bordered">
+      <table className="table table-md table-striped table-bordered">
         <thead className="thead-dark">
           <tr>
             <th colSpan="4">General Committee Members</th>
