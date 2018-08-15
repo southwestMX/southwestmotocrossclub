@@ -88,11 +88,12 @@ class RiderInformation extends Component {
               />
             </Link>{" "}
           </p>
+          <h5>MyLaps used for all of our race timings</h5>
           <h5>
-            Is used for all of our race timings, riders without their own
-            transponder are able to hire them from us on a strictly ‘first come,
-            first served’ basis.
+            Riders without their own transponder are able to hire them from us
+            on a strictly ‘first come, first served’ basis.
           </h5>
+          <p />
         </div>
       </DocumentTitle>
     );

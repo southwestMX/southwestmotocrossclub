@@ -39,6 +39,7 @@ class ResponsiveTable extends Component {
               key={i}
               eventId={speedHiveLink.eventId}
               displayText={speedHiveLink.displayText}
+              className="s-margin-bottom-4"
             />
           );
         });
