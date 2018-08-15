@@ -44,7 +44,7 @@ const details = [
   },
   {
     round: "7 & 8",
-    date: "9th / 10th September",
+    date: "8th / 9th September",
     track: "Little Silver Moto Parc",
     empty: ""
   },
