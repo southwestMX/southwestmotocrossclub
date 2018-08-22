@@ -58,7 +58,7 @@ class Committee extends Component {
   render() {
     return (
       <DocumentTitle title="Committee 2018 | SWMX">
-        <div>
+        <div className="margin-bottom-20">
           <h1 className="my-md-4">Committee 2018</h1>
           <ResponsiveTable
             headers={committeeHeaders}

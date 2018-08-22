@@ -75,25 +75,25 @@ class RiderInformation extends Component {
           <ChampionshipDates />
 
           <GroupsAndEntryFees />
-
-          <h2 className="margin-top-60">Race Timing</h2>
-          <p>
-            <Link to="//www.mylaps.com">
-              <img
-                className="mylaps-logo alignnone"
-                src={MylapsLogo}
-                alt="MyLaps logo"
-                width="300"
-                height="53"
-              />
-            </Link>{" "}
-          </p>
-          <h5>MyLaps used for all of our race timings</h5>
-          <h5>
-            Riders without their own transponder are able to hire them from us
-            on a strictly ‘first come, first served’ basis.
-          </h5>
-          <p />
+          <div className="margin-bottom-20">
+            <h2 className="margin-top-60">Race Timing</h2>
+            <p>
+              <Link to="//www.mylaps.com">
+                <img
+                  className="mylaps-logo alignnone"
+                  src={MylapsLogo}
+                  alt="MyLaps logo"
+                  width="300"
+                  height="53"
+                />
+              </Link>{" "}
+            </p>
+            <h5>MyLaps used for all of our race timings</h5>
+            <h5>
+              Riders without their own transponder are able to hire them from us
+              on a strictly ‘first come, first served’ basis.
+            </h5>
+          </div>
         </div>
       </DocumentTitle>
     );

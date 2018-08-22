@@ -34,7 +34,7 @@ const details = [
     round: "MCF Team Event",
     date: "18th / 19th August",
     track: "Sherwood Park MX",
-    empty: ""
+    speedHiveLink: { eventId: 1576375 }
   },
   {
     round: "6",
