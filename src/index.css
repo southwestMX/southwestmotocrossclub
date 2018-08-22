@@ -43,6 +43,10 @@ footer {
   margin-left: 4px;
 }
 
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
 .s-margin-bottom-4 {
   margin-bottom: 4px;
 }
@@ -63,4 +67,13 @@ footer {
 
 td.vertical-align {
   vertical-align: middle;
+}
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
 }
