@@ -19,7 +19,7 @@ class Header extends Component {
     return (
       <div>
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand text-info" to="/">
             South West Motocross Club
           </Link>
           <button

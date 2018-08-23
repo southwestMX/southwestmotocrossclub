@@ -41,8 +41,8 @@ class Home extends Component {
                 </p>
               </div>
             </div>
-            <div className="row margin-top-25">
-              <h4 className="mx-auto">Latest Event / Facebook News</h4>
+            <div className="row margin-top-60">
+              <h2 className="mx-auto">Latest Event / Facebook News</h2>
               <Facebook
                 tabs="events,timeline"
                 title="Latest Events"
