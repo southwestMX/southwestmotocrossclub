@@ -15,37 +15,39 @@ class Home extends Component {
             alt="South West Motocross Club"
           />
 
-          <div className="container margin-bottom-20">
-            <h5>
-              Memberships are now available, for details about this and other
-              important information such as fixtures and results
-            </h5>
-            <p>
-              <a className="btn btn-info" href="/RiderInformation">
-                View Rider Information
-              </a>
-            </p>
-          </div>
+          <div className="container-fluid margin-top-25 margin-bottom-20">
+            <div className="row">
+              <div className="col-sm-6 margin-top-25 d-flex flex-column">
+                <p>
+                  Memberships are now available! For further details about
+                  membership and other club information such as fixtures and
+                  results
+                </p>
 
-          <div className="container margin-bottom-20">
-            <h5>Please take a moment to view this year's sponsors</h5>
-            <p>
-              <a className="btn btn-info" href="/Sponsors">
-                View Sponsors
-              </a>
-            </p>
-          </div>
-
-          <div className="container margin-top-25 margin-bottom-20">
-            <h4>Latest Event / Facebook News</h4>
-            <div className="container margin-bottom-20">
-              <div className="row">
-                <Facebook
-                  tabs="events,timeline"
-                  title="Latest Events"
-                  height="750"
-                />
+                <p className="mt-auto">
+                  <a className="btn btn-info" href="/RiderInformation">
+                    View Rider Information
+                  </a>
+                </p>
               </div>
+
+              <div className="col-sm-6 margin-top-25 d-flex flex-column">
+                <p>Please take a moment to view this year's sponsors</p>
+
+                <p className="mt-auto">
+                  <a className="btn btn-info" href="/Sponsors">
+                    View Sponsors
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="row margin-top-25">
+              <h4 className="mx-auto">Latest Event / Facebook News</h4>
+              <Facebook
+                tabs="events,timeline"
+                title="Latest Events"
+                height="750"
+              />
             </div>
           </div>
         </div>
