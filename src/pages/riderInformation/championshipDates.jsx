@@ -40,24 +40,27 @@ const details = [
     round: "6",
     date: "26th August",
     track: "Whiteway Barton",
-    empty: ""
+    speedHiveLink: { eventId: 1582122 }
   },
   {
     round: "7 & 8",
     date: "8th / 9th September",
     track: "Little Silver Moto Parc",
-    empty: ""
+    speedHiveLinks: [
+      { eventId: 1590259, displayText: "Day 1 Results" },
+      { eventId: 1590266, displayText: "Day 2 Results" }
+    ]
   },
   {
     round: "9",
     date: "23rd September",
     track: "Crediton",
-    empty: ""
+    empty: "Cancelled - lack of riders"
   },
   {
     round: "10",
     date: "7th October",
-    track: "Yarley",
+    track: "Landrake Moto Parc",
     empty: ""
   }
 ];
