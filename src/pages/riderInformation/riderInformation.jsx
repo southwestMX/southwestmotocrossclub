@@ -8,14 +8,14 @@ import { GroupsAndEntryFees } from "./groupsAndEntryFees";
 import McfLogo from "../../images/mcfLogo.png";
 import MylapsLogo from "../../images/mylapsLogo.svg";
 
-import MembershipForm from "../../membershipform-2018.doc";
+import MembershipForm from "../../membershipform-2019.pdf";
 
 class RiderInformation extends Component {
   render() {
     return (
-      <DocumentTitle title="Rider Information 2018 | SWMX">
+      <DocumentTitle title="Rider Information 2019 | SWMX">
         <div>
-          <h1 className="my-md-4">Rider Information 2018</h1>
+          <h1 className="my-md-4">Rider Information 2019</h1>
 
           <h2 className="margin-top-60">Club Membership</h2>
           <p>
@@ -42,7 +42,7 @@ class RiderInformation extends Component {
           </p>
 
           <p>£15 – If South West Motocross Club is named on the license</p>
-          <p>£25 – If licence has been taken out with any other MCF Club</p>
+          <p>£30 – If licence has been taken out with any other MCF Club</p>
 
           <p>
             <Link
@@ -62,16 +62,16 @@ class RiderInformation extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              Download SWMX 2018 Membership Form
+              SWMX 2019 Membership Form
             </Link>
           </p>
 
-          <h2 className="margin-top-60">Fixtures 2018</h2>
+          <h2 className="margin-top-60">Results 2018</h2>
 
           <h3 className="margin-top-25">Winter Warm Ups</h3>
           <WinterWarmups />
 
-          <h3 className="margin-top-25">Championship Dates</h3>
+          <h3 className="margin-top-25">Championship</h3>
           <ChampionshipDates />
 
           <GroupsAndEntryFees />

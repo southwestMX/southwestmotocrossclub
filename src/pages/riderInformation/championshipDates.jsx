@@ -61,7 +61,7 @@ const details = [
     round: "10",
     date: "7th October",
     track: "Landrake Moto Parc",
-    empty: ""
+    speedHiveLink: { eventId: 1603087 }
   }
 ];
 
