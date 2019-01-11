@@ -77,3 +77,41 @@ td.vertical-align {
   display: flex;
   flex-direction: column;
 }
+
+#logo {
+  margin-bottom: 20px;
+}
+
+#latestPoster {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#home-body {
+  margin-bottom: 20px;
+}
+
+.button-column {
+  margin-top: 5px;
+}
+
+#latest-events {
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 992px) {
+  #latestPoster {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .button-column {
+    margin-top: 15px;
+  }
+
+  #latest-events {
+    margin-top: 20px;
+  }
+}
