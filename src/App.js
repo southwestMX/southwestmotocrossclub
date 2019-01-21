@@ -10,7 +10,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
 import RiderInformation from "./pages/riderInformation/riderInformation";
 import Committee from "./pages/committee";
-import Sponsors from "./pages/sponsors";
+import Sponsors from "./pages/sponsors/sponsors";
 
 const Main = () => (
   <main>

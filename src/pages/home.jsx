@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import DocumentTitle from "react-document-title";
 import Logo from "../images/swmx_logo.png";
-import LatestPosters from "../images/latestPoster.png";
 import Facebook from "../components/facebookPlugin";
+// import LatestPosters from "../images/latestPoster.png";
 
 class Home extends Component {
   render() {
@@ -16,12 +16,12 @@ class Home extends Component {
             alt="South West Motocross Club"
           />
 
-          <img
+          {/* <img
             id="latestPoster"
             className="img-fluid"
             src={LatestPosters}
             alt="Latest Poster"
-          />
+          /> */}
 
           <div id="home-body" className="container-fluid">
             <div className="row">
