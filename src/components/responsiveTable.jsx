@@ -52,7 +52,10 @@ class ResponsiveTable extends Component {
 
     return (
       <div className="table-responsive">
-        <table className="table table-md table-striped table-bordered">
+        <table
+          id={this.props.id}
+          className="table table-md table-striped table-bordered"
+        >
           <thead className="thead-dark">
             <tr>{buildTableHeaders(this.props.headers)}</tr>
           </thead>

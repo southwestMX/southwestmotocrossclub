@@ -115,3 +115,7 @@ td.vertical-align {
     margin-top: 20px;
   }
 }
+
+.table td {
+  vertical-align: middle;
+}

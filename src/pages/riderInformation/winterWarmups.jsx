@@ -8,13 +8,13 @@ const details = [
     date: "20th January",
     track: "Crediton",
     speedHiveLink: { eventId: 1624823 }
-  },
-  {
-    round: "Practise Day",
-    date: "10th February",
-    track: "CRB Raceway @ Smeatharpe",
-    empty: "N/a"
-  }
+  } //,
+  //{
+  //  round: "Practise Day",
+  //  date: "10th February",
+  //  track: "CRB Raceway @ Smeatharpe",
+  //  empty: "N/a"
+  //}
 ];
 
 export const WinterWarmups = () => (
