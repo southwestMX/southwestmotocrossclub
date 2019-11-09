@@ -9,6 +9,7 @@ class Header extends Component {
       links: [
         { to: "/", text: "Home" },
         { to: "/RiderInformation", text: "Rider Information" },
+        { to: "/PastResults", text: "Past Results" },
         { to: "/Committee", text: "Committee" },
         { to: "/Sponsors", text: "Sponsors" }
       ]

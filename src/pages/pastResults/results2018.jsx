@@ -74,12 +74,5 @@ const details = [
 export const Results2018 = () => (
   <div>
     <ResponsiveTable headers={headers} details={details} />
-
-    <h5>Tracks and dates are subject to change</h5>
-    <h5>
-      Club members must compete in at least five rounds in order to qualify for
-      awards.
-    </h5>
-    <h5>A riders worst 6 races will be dropped.</h5>
   </div>
 );

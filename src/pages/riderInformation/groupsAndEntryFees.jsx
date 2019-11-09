@@ -12,7 +12,7 @@ const details = [
 
 export const GroupsAndEntryFees = () => (
   <div>
-    <h2 className="margin-top-60">Groups / Entry Fees 2018</h2>
+    <h2 className="margin-top-60">Groups / Entry Fees</h2>
 
     <ResponsiveTable headers={headers} details={details} />
   </div>

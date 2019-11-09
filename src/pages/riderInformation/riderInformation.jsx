@@ -1,22 +1,25 @@
 import React, { Component } from "react";
 import DocumentTitle from "react-document-title";
 import { Link } from "react-router-dom";
-import { WinterWarmups } from "./winterWarmups";
-import { ChampionshipDates } from "./championshipDates";
-import { GroupsAndEntryFees } from "./groupsAndEntryFees";
 
 import McfLogo from "../../images/mcfLogo.png";
 import MylapsLogo from "../../images/mylapsLogo.svg";
 
-import MembershipForm from "../../membershipform-2019.pdf";
-import { FunDays } from "./funDays";
+import MembershipForm from "../../membershipform-2020.pdf";
+
+//import { WinterWarmups } from "./winterWarmups";
+// import { ChampionshipDates } from "./championshipDates";
+// import { FunDays } from "./funDays";
+import { GroupsAndEntryFees } from "./groupsAndEntryFees";
+
+const year = "2020"
 
 class RiderInformation extends Component {
   render() {
     return (
-      <DocumentTitle title="Rider Information 2019 | SWMX">
+      <DocumentTitle title={`Rider Information ${year} | SWMX`}>
         <div>
-          <h1 className="my-md-4">Rider Information 2019</h1>
+          <h1 className="my-md-4">Rider Information {year}</h1>
 
           <h2 className="margin-top-60">Club Membership</h2>
           <p>
@@ -63,27 +66,28 @@ class RiderInformation extends Component {
               rel="noopener noreferrer"
               target="_blank"
             >
-              SWMX 2019 Membership Form
+              SWMX {year} Membership Form
             </Link>
           </p>
 
           <h2 className="margin-top-60">Fixtures</h2>
+          <h3 className="margin-top-25">TBC</h3>
 
-          <h3 className="margin-top-25">Winter Warm Ups</h3>
-          <WinterWarmups />
+          {/* <h3 className="margin-top-25">Winter Warm Ups</h3>
+          <WinterWarmups /> */}
 
-          <h3 className="margin-top-25">Championship</h3>
+          {/* <h3 className="margin-top-25">Championship</h3>
           <ChampionshipDates />
 
           <h3 className="margin-top-25">Fun Days (Mx &amp; EnduroX)</h3>
-          <FunDays />
+          <FunDays />  */}
 
-          <h5>Tracks and dates are subject to change</h5>
+          {/* <h5>Tracks and dates are subject to change</h5>
           <h5>
             Club members must compete in at least six rounds in order to qualify
             for awards.
           </h5>
-          <h5>A riders worst 3 races will be dropped.</h5>
+          <h5>A riders worst 3 races will be dropped.</h5> */}
 
           <GroupsAndEntryFees />
           <div className="margin-bottom-20">

@@ -9,6 +9,7 @@ import { Switch, Route } from "react-router-dom";
 
 import Home from "./pages/home";
 import RiderInformation from "./pages/riderInformation/riderInformation";
+import PastResults from "./pages/pastResults/pastResults";
 import Committee from "./pages/committee";
 import Sponsors from "./pages/sponsors/sponsors";
 
@@ -17,6 +18,7 @@ const Main = () => (
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/RiderInformation" component={RiderInformation} />
+      <Route exact path="/PastResults" component={PastResults} />
       <Route exact path="/Committee" component={Committee} />
       <Route exact path="/Sponsors" component={Sponsors} />
     </Switch>
