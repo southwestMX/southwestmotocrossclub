@@ -1,19 +1,28 @@
 {
-  "main.css": "/static/css/main.deeca965.chunk.css",
-  "main.js": "/static/js/main.7d5ff54c.chunk.js",
-  "main.js.map": "/static/js/main.7d5ff54c.chunk.js.map",
-  "static/css/1.60fab11f.chunk.css": "/static/css/1.60fab11f.chunk.css",
-  "static/js/1.b00cd47b.chunk.js": "/static/js/1.b00cd47b.chunk.js",
-  "static/js/1.b00cd47b.chunk.js.map": "/static/js/1.b00cd47b.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/swmx_logo.png": "/static/media/swmx_logo.f2dbf84e.png",
-  "static/media/membershipform-2019.pdf": "/static/media/membershipform-2019.0e6204f8.pdf",
-  "static/media/Mito.png": "/static/media/Mito.4377561c.png",
-  "static/media/mylapsLogo.svg": "/static/media/mylapsLogo.4211dcc0.svg",
-  "static/css/main.deeca965.chunk.css.map": "/static/css/main.deeca965.chunk.css.map",
-  "static/css/1.60fab11f.chunk.css.map": "/static/css/1.60fab11f.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.0416f2cbac3ffd448200aeca36e6bf9d.js": "/precache-manifest.0416f2cbac3ffd448200aeca36e6bf9d.js",
-  "service-worker.js": "/service-worker.js"
+  "files": {
+    "main.css": "/static/css/main.1f02213c.chunk.css",
+    "main.js": "/static/js/main.888d1bff.chunk.js",
+    "main.js.map": "/static/js/main.888d1bff.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.fa85f3ec.js",
+    "runtime-main.js.map": "/static/js/runtime-main.fa85f3ec.js.map",
+    "static/css/2.9720967d.chunk.css": "/static/css/2.9720967d.chunk.css",
+    "static/js/2.ec5ac855.chunk.js": "/static/js/2.ec5ac855.chunk.js",
+    "static/js/2.ec5ac855.chunk.js.map": "/static/js/2.ec5ac855.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3a23703832f55a826224ebc1caa9df50.js": "/precache-manifest.3a23703832f55a826224ebc1caa9df50.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.9720967d.chunk.css.map": "/static/css/2.9720967d.chunk.css.map",
+    "static/css/main.1f02213c.chunk.css.map": "/static/css/main.1f02213c.chunk.css.map",
+    "static/media/Mito.png": "/static/media/Mito.4377561c.png",
+    "static/media/membershipform-2020.pdf": "/static/media/membershipform-2020.52efd697.pdf",
+    "static/media/mylapsLogo.svg": "/static/media/mylapsLogo.4211dcc0.svg",
+    "static/media/swmx_logo.png": "/static/media/swmx_logo.f2dbf84e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa85f3ec.js",
+    "static/css/2.9720967d.chunk.css",
+    "static/js/2.ec5ac855.chunk.js",
+    "static/css/main.1f02213c.chunk.css",
+    "static/js/main.888d1bff.chunk.js"
+  ]
 }

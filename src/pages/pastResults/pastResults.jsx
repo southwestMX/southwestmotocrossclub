@@ -13,11 +13,11 @@ class PastResults extends Component {
         <div>
           <h1 className="my-md-4">Past Results</h1>
 
-          <h3 className="margin-top-25">2018</h3>
-          <Results2018 />
-
           <h3 className="margin-top-25">2019</h3>
           <Results2019 />
+
+          <h3 className="margin-top-25">2018</h3>
+          <Results2018 />
 
         </div>
       </DocumentTitle>
