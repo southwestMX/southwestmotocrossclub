@@ -7,8 +7,8 @@ import MylapsLogo from "../../images/mylapsLogo.svg";
 
 import MembershipForm from "../../membershipform-2020.pdf";
 
-//import { WinterWarmups } from "./winterWarmups";
-// import { ChampionshipDates } from "./championshipDates";
+import { WinterWarmups } from "./winterWarmups";
+import { ChampionshipDates } from "./championshipDates";
 // import { FunDays } from "./funDays";
 import { GroupsAndEntryFees } from "./groupsAndEntryFees";
 
@@ -73,13 +73,13 @@ class RiderInformation extends Component {
           <h2 className="margin-top-60">Fixtures</h2>
           <h3 className="margin-top-25">TBC</h3>
 
-          {/* <h3 className="margin-top-25">Winter Warm Ups</h3>
-          <WinterWarmups /> */}
+          <h3 className="margin-top-25">Winter Warm Ups</h3>
+          <WinterWarmups />
 
-          {/* <h3 className="margin-top-25">Championship</h3>
+          <h3 className="margin-top-25">Championship</h3>
           <ChampionshipDates />
 
-          <h3 className="margin-top-25">Fun Days (Mx &amp; EnduroX)</h3>
+          {/* <h3 className="margin-top-25">Fun Days (Mx &amp; EnduroX)</h3>
           <FunDays />  */}
 
           {/* <h5>Tracks and dates are subject to change</h5>
