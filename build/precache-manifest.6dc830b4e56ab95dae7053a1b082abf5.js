@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83be2fc119c73bf250471982706c32e9",
+    "revision": "e231a7d037a02017bb6486c87a86f52f",
     "url": "/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.9720967d.chunk.css"
   },
   {
-    "revision": "7bd9e273ff36f896e311",
+    "revision": "4f93023a3a3253603f29",
     "url": "/static/css/main.1f02213c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.1912138b.chunk.js"
   },
   {
-    "revision": "7bd9e273ff36f896e311",
-    "url": "/static/js/main.4cd47df8.chunk.js"
+    "revision": "4f93023a3a3253603f29",
+    "url": "/static/js/main.5e70c09d.chunk.js"
   },
   {
     "revision": "14aba97c3aa4df574f84",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4211dcc0c57deffbe7b3cbea3517de65",
     "url": "/static/media/mylapsLogo.4211dcc0.svg"
+  },
+  {
+    "revision": "c1d1205d7bb4c6160ff912b181eb2213",
+    "url": "/static/media/noraLogo.c1d1205d.png"
   },
   {
     "revision": "f2dbf84e31390648fc54bd1a965eec7c",

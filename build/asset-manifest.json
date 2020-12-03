@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.1f02213c.chunk.css",
-    "main.js": "/static/js/main.4cd47df8.chunk.js",
-    "main.js.map": "/static/js/main.4cd47df8.chunk.js.map",
+    "main.js": "/static/js/main.5e70c09d.chunk.js",
+    "main.js.map": "/static/js/main.5e70c09d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fa85f3ec.js",
     "runtime-main.js.map": "/static/js/runtime-main.fa85f3ec.js.map",
     "static/css/2.9720967d.chunk.css": "/static/css/2.9720967d.chunk.css",
     "static/js/2.1912138b.chunk.js": "/static/js/2.1912138b.chunk.js",
     "static/js/2.1912138b.chunk.js.map": "/static/js/2.1912138b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.39df1821b2d3b4903830fb9ee6749f6c.js": "/precache-manifest.39df1821b2d3b4903830fb9ee6749f6c.js",
+    "precache-manifest.6dc830b4e56ab95dae7053a1b082abf5.js": "/precache-manifest.6dc830b4e56ab95dae7053a1b082abf5.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.9720967d.chunk.css.map": "/static/css/2.9720967d.chunk.css.map",
     "static/css/main.1f02213c.chunk.css.map": "/static/css/main.1f02213c.chunk.css.map",
     "static/media/Mito.png": "/static/media/Mito.4377561c.png",
     "static/media/membershipform-2021.pdf": "/static/media/membershipform-2021.f65e96b8.pdf",
     "static/media/mylapsLogo.svg": "/static/media/mylapsLogo.4211dcc0.svg",
+    "static/media/noraLogo.png": "/static/media/noraLogo.c1d1205d.png",
     "static/media/swmx_logo.png": "/static/media/swmx_logo.f2dbf84e.png"
   },
   "entrypoints": [
@@ -23,6 +24,6 @@
     "static/css/2.9720967d.chunk.css",
     "static/js/2.1912138b.chunk.js",
     "static/css/main.1f02213c.chunk.css",
-    "static/js/main.4cd47df8.chunk.js"
+    "static/js/main.5e70c09d.chunk.js"
   ]
 }

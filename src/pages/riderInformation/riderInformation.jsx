@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import DocumentTitle from "react-document-title";
 import { Link } from "react-router-dom";
 
-import McfLogo from "../../images/mcfLogo.png";
+import NoraLogo from "../../images/noraLogo.png";
 import MylapsLogo from "../../images/mylapsLogo.svg";
 
 import MembershipForm from "../../membershipform-2021.pdf";
@@ -23,39 +23,39 @@ class RiderInformation extends Component {
 
           <h2 className="margin-top-60">Club Membership</h2>
           <p>
-            <a href="//www.mcfederation.com/">
+            <a href="//nora92.com" target="_blank">
               <img
                 className="alignnone size-full"
-                src={McfLogo}
+                src={NoraLogo}
                 alt=""
-                width="120"
-                height="50"
+                width="200"
+                height="56"
               />
             </a>
           </p>
           <p>
-            The South West Motocross Club is part of the MCF and riders are
-            required to hold an MCF racing license to attend our events
+            The South West Motocross Club is part of the Nora92 and riders are
+            required to hold an Nora92 racing license to attend our events
             (full/day license).
           </p>
 
           <p>
-            To encourage riders to take out a full MCF license, we offer a
+            To encourage riders to take out a full Nora92 license, we offer a
             discount to join our club when South West Motocross Club is named on
             the license.
           </p>
 
           <p>£15 – If South West Motocross Club is named on the license</p>
-          <p>£30 – If licence has been taken out with any other MCF Club</p>
+          <p>£30 – If licence has been taken out with any other Nora92 Club</p>
 
           <p>
             <Link
               className="btn btn-info"
-              to="//www.mcfederation.com/licences"
+              to="//nora92.com/product/2021-licence/"
               rel="noopener noreferrer"
               target="_blank"
             >
-              View MCF license options
+              View Nora92 License Options
             </Link>
           </p>
           <p>
