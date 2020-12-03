@@ -6,21 +6,21 @@ const headers = ["Round", "Date", "Track"];
 const details = [
   {
     round: "1",
-    date: "23rd February",
+    date: "18th April",
     track: "Yarley Moto Parc",
     //empty: ""
     //speedHiveLinks: [{ eventId: 1639991 }]
   },
   {
     round: "2 / 3",
-    date: "18th / 19th April",
-    track: "Littlehempston",
+    date: "15th / 16th May",
+    track: "MX Memorial Weekend @ Landrake Moto Parc",
     //empty: ""
     //speedHiveLink: { eventId: 1534198 }
   },
   {
     round: "4",
-    date: "10th May",
+    date: "27th June",
     track: "Whiteway",
     //empty: ""
     // speedHiveLinks: [
@@ -29,41 +29,32 @@ const details = [
   },
   {
     round: "5",
-    date: "7th June",
-    track: "Matt Jones Memorial @ Landrake Moto Parc",
+    date: "25th July",
+    track: "Bodmin Raceway",
     //empty: ""
     //speedHiveLink: { eventId: 1534198 }
   },
   {
-    round: "6",
-    date: "12th June",
-    track: "Bodmin",
+    round: "6 / 7",
+    date: "21st / 22nd August",
+    track: "Little Silver Moto Park",
     //empty: ""
     //speedHiveLink: { eventId: 1561096 }
   },
   {
-    round: "7",
-    date: "2nd August",
-    track: "Foxhills",
+    round: "8",
+    date: "12th September",
+    track: "Littlehempston",
     //empty: ""
     //speedHiveLink: { eventId: 1582122 }
-  },
-  {
-    round: "8 / 9",
-    date: "12th / 13th September",
-    track: "Little Silver",
-    //empty: ""
-    // speedHiveLinks: [
-    //   { eventId: 1590266 }
-    // ]
-  },
-  {
-    round: "10",
-    date: "4th October",
-    track: "Brookthorpe",
-    //empty: ""
-    //empty: "Cancelled - lack of riders"
   }
+  // {
+  //   round: "10",
+  //   date: "4th October",
+  //   track: "Brookthorpe",
+  //   //empty: ""
+  //   //empty: "Cancelled - lack of riders"
+  // }
 ];
 
 export const ChampionshipDates = () => (

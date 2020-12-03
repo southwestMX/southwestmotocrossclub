@@ -5,14 +5,14 @@ import { Link } from "react-router-dom";
 import McfLogo from "../../images/mcfLogo.png";
 import MylapsLogo from "../../images/mylapsLogo.svg";
 
-import MembershipForm from "../../membershipform-2020.pdf";
+import MembershipForm from "../../membershipform-2021.pdf";
 
-import { WinterWarmups } from "./winterWarmups";
+//import { WinterWarmups } from "./winterWarmups";
 import { ChampionshipDates } from "./championshipDates";
 // import { FunDays } from "./funDays";
 import { GroupsAndEntryFees } from "./groupsAndEntryFees";
 
-const year = "2020"
+const year = "2021"
 
 class RiderInformation extends Component {
   render() {
@@ -71,10 +71,6 @@ class RiderInformation extends Component {
           </p>
 
           <h2 className="margin-top-60">Fixtures</h2>
-          <h3 className="margin-top-25">TBC</h3>
-
-          <h3 className="margin-top-25">Winter Warm Ups</h3>
-          <WinterWarmups />
 
           <h3 className="margin-top-25">Championship</h3>
           <ChampionshipDates />
