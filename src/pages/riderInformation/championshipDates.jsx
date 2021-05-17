@@ -6,45 +6,38 @@ const headers = ["Round", "Date", "Track"];
 const details = [
   {
     round: "1",
-    date: "18th April",
-    track: "Yarley Moto Parc",
+    date: "6th June",
+    track: "MX Memorial @ Bodmin Raceway",
     //empty: ""
     //speedHiveLinks: [{ eventId: 1639991 }]
   },
   {
     round: "2 / 3",
-    date: "15th / 16th May",
-    track: "MX Memorial Weekend @ Landrake Moto Parc",
+    date: "24th / 25th July",
+    track: "Whiteway",
     //empty: ""
     //speedHiveLink: { eventId: 1534198 }
   },
   {
-    round: "4",
-    date: "27th June",
-    track: "Whiteway",
+    round: "4 / 5",
+    date: "21st / 22nd August",
+    track: "Little Silver Moto Park",
     //empty: ""
     // speedHiveLinks: [
     //   { eventId: 1489377}
     // ]
   },
   {
-    round: "5",
-    date: "25th July",
-    track: "Bodmin Raceway",
-    //empty: ""
-    //speedHiveLink: { eventId: 1534198 }
-  },
-  {
     round: "6 / 7",
-    date: "21st / 22nd August",
-    track: "Little Silver Moto Park",
+    date: "11th / 12th September",
+    track: "Littlehempston",
     //empty: ""
     //speedHiveLink: { eventId: 1561096 }
   },
   {
     round: "8",
-    date: "12th September",
-    track: "Littlehempston",
+    date: "TBC",
+    track: "TBC",
     //empty: ""
     //speedHiveLink: { eventId: 1582122 }
   }
