@@ -19,8 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && mv build/index.html build/200.html && surge build swmx.surge.sh",
-    "deployProd": "surge build southwestmotocrossclub.net/"
+    "buildAndPackage": "npm run build && mv build/index.html build/200.html",
+    "deployTest": "npm run buildAndPackage && surge build swmx.surge.sh",
+    "deployProd": "npm run buildAndPackage && surge build southwestmotocrossclub.net/"
   },
   "devDependencies": {
     "bootstrap": "^4.1.3",
